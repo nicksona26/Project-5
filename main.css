@@ -1,0 +1,366 @@
+html {
+    overflow-x: hidden;
+}
+
+/***********WELCOME SECTION************/
+
+#welcome-section {
+    background-color:  rgb(39, 38, 39);
+    height: 94vh;
+    margin: -65px -30px 0px -20px;
+}
+
+#greet1 {
+    font-size: 100px;
+    font-family: 'Staatliches', cursive;
+    text-align:center;
+    padding-top: 150px;
+    color: white;
+}
+
+#greet2 {
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    font-size: 50px;
+    padding-top:-20px;
+    color: white;
+}  
+
+/**********CONTACTS SECTION***********/
+
+#contacts {
+    background-color:  rgb(39, 38, 39);
+    height: 430px;
+    margin-right:-30px;
+    margin-left:-20px;
+    margin-top:80px;
+    margin-bottom:-20px;
+    padding-top:4px;
+    padding-bottom:100px;
+}
+
+#contacttitle1 {
+    font-family: 'Staatliches', cursive;
+    font-size: 100px;
+    text-align: center;
+    padding-right:10px;
+    padding-left:20px;
+    margin-top:70px;
+    color: white;
+    text-align: center;
+}
+
+#contacttitle2 {
+    font-family: 'Staatliches', cursive;
+    font-size: 60px;
+    text-align: center;
+    margin-top:-30px;
+    color: white;
+}
+
+#contactline {
+    display:flex;
+}
+
+.animation {
+    margin-top: 40px;
+    transition: margin-top .25s;
+}
+
+.animation:hover {
+    margin-top: 50px;
+}
+
+#twittericon {
+    margin-left: 150px;
+    height: 70px;
+    width: 70px;
+    margin-top:20px;
+}
+
+#githubicon {
+    margin-left: 50px;
+    height: 70px;
+    width: 70px;
+    margin-top:20px;
+}
+
+#emailicon {
+    margin-left: 50px;
+    height: 70px;
+    width: 70px;
+    margin-top:20px;
+}
+
+#numbericon {
+    margin-left: 50px;
+    height: 70px;
+    width: 70px;
+    margin-top:20px;
+}
+
+#twitter {
+    margin-left: 30px;
+    font-family: 'Staatliches', cursive;
+    font-size: 40px;
+    color: white;
+    margin-right:10px
+}
+
+#github {
+    margin-left: 30px;
+    font-family: 'Staatliches', cursive;
+    font-size: 40px;
+    color: white;
+    margin-right:10px
+}
+
+#email {
+    margin-left: 30px;
+    font-family: 'Staatliches', cursive;
+    font-size: 40px;
+    color: white;
+    margin-right:10px
+}
+
+#number {
+    margin-left: 30px;
+    font-family: 'Staatliches', cursive;
+    font-size: 40px;
+    color: white;
+}
+
+/********NAVBAR**********/
+
+#navbar {
+    position: sticky;
+    top: 0;
+    background-color: rgb(241, 0, 0);
+    height:70px;
+    margin-left:-30px;
+    margin-right:-30px;
+    margin-top:-30px;
+    border-bottom: solid;
+    border-width:5pt;
+}
+
+#navlist {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 20px;
+    font-family: 'Staatliches', cursive;
+  
+}
+
+#nav1 {
+    margin-left: 700px;
+    color:black;
+    font-size: 25px;
+    transition: font-size .3s
+}
+
+#nav1:hover {
+    font-size: 30px;
+}
+
+#nav2 {
+    color:black;
+    font-size: 25px;
+    transition: font-size .3s
+}
+
+#nav2:hover {
+    font-size: 30px;
+}
+
+#nav3 {
+    color:black;
+    font-size: 25px;
+    transition: font-size .3s
+}
+
+#nav3:hover {
+    font-size: 30px;
+}
+
+/*******PROJECTS SECTION*********/
+#projects {
+    background-color: rgb(76, 76, 78);
+    margin-right:-30px;
+    margin-left:-20px;
+    height: 67vh;
+    margin-top: -100px;
+    display: grid;
+    margin-bottom:-80px;
+    grid-template-columns: 600px 400px;
+    grid-template-rows: 300px 300px;
+    padding-bottom: 80px;
+}
+
+#projsectitle {
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    font-size: 27px;
+    margin-right:-30px;
+    margin-left:-20px;
+    background-color: rgb(76, 76, 78);
+    padding-left: 390px;
+    margin-top:-60px;
+}
+
+#alien {
+    width:30%;
+    height:40%;
+    margin-top: -200px;
+    margin-bottom:-396px;
+    margin-right:500px;
+    margin-left:-700px;
+    transition: height 1s;
+    transition: width 1s;
+}
+
+#alien:hover {
+    height: 35%;
+    width: 25%;
+}
+
+
+#img1 {
+    height: 130px;
+    width: 250px;
+    border-bottom: solid;
+    border-width: 7pt;
+    margin-bottom:-25px;
+    border-color:black;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+#imghdr1 {
+    font-family: 'Staatliches', cursive;
+    margin-left: 50px;
+    color: black;
+}
+
+#img2 {
+    height: 130px;
+    width: 250px;
+    border-bottom: solid;
+    border-width: 7pt;
+    margin-bottom:-25px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    border-color:black;
+}
+
+#imghdr2 {
+    font-family: 'Staatliches', cursive;
+    margin-left: 53px;
+    width:270px;
+    color: black;
+}
+
+
+#img3 {
+    height: 130px;
+    width: 250px;
+    border-bottom: solid;
+    border-width: 7pt;
+    margin-bottom:-25px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    border-color:black;
+}
+
+#imghdr3 {
+    font-family: 'Staatliches', cursive;
+    margin-left: 45px;
+    color: black;
+}
+
+#img4 {
+    height: 130px;
+    width: 250px;
+    border-bottom: solid;
+    border-width: 7pt;
+    margin-bottom:-25px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    border-color:black;
+}
+
+#imghdr4 {
+    width: 230px;
+    font-family: 'Staatliches', cursive;
+    margin-left: 22px;
+    color: black;
+}
+
+#box1 {
+    margin-left: 500px;
+    margin-top: 40px;
+    border: solid;
+    border-width: 7pt;
+    width:250px;
+    height:180px;
+    border-radius:30px;
+    background-color: rgb(241, 0, 0);
+    box-shadow:none;
+    transition: box-shadow .5s;
+}
+
+#box1:hover {
+    box-shadow:0px 0px 20px rgb(190, 187, 187);
+}
+
+#box2 {
+    margin-left: 300px;
+    margin-top: 40px;
+    border: solid;
+    border-width: 7pt;
+    width:250px;
+    height:180px;
+    border-radius:30px;
+    background-color: rgb(241, 0, 0);
+    box-shadow:none;
+    transition: box-shadow .5s;
+}
+
+#box2:hover {
+    box-shadow:0px 0px 20px rgb(190, 187, 187);
+}
+
+#box3 {
+    margin-left: 500px;
+    border: solid;
+    border-width: 7pt;
+    width:250px;
+    height:180px;
+    border-radius:30px;
+    margin-top:-30px;
+    background-color: rgb(241, 0, 0);
+    box-shadow:none;
+    transition: box-shadow .5s;
+}
+
+#box3:hover {
+    box-shadow:0px 0px 20px rgb(190, 187, 187);
+}
+
+#box4 {
+    margin-left: 300px;
+    border: solid;
+    border-width: 7pt;
+    width:250px;
+    height:180px;
+    border-radius:30px;
+    margin-top:-30px;
+    background-color: rgb(241, 0, 0);
+    box-shadow:none;
+    transition: box-shadow .5s;
+}
+
+#box4:hover {
+    box-shadow:0px 0px 20px rgb(190, 187, 187);
+}
